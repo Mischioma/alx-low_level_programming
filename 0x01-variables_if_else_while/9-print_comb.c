@@ -12,6 +12,10 @@ int main(void)
 
 	for (num = 48; num < 58; num++)
 	{
+		putchar(n);
+		if (n != 57)
+	}
+	{
 		putchar(',');
 		putchar(' ');
 	}
