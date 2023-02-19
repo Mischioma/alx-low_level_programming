@@ -3,17 +3,17 @@
 #include <stdio.h>
 
 /**
- * *main - print all possible combinations of single digit numbers
+ *main - print all possible combinations of single digit numbers
  * Return: Always 0
  */
 int main(void)
 {
 	int num;
 
-	for (n = 48; n < 58; n++)
+	for (num = 48; num < 58; num++)
 	{
 		putchar(',');
 		putchar(' ');
 	}
 	putchar('\n');
-	return (0)
+	return (0);
