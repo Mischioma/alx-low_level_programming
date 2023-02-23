@@ -7,6 +7,8 @@
  */
 void print_to_98(int n)
 {
+	print_to_98(98);
+
 	while (n < 98)
 	{
 		printf("%i, ", n);
