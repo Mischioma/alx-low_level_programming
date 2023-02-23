@@ -4,10 +4,10 @@
 /**
  * print_to_98 - print all numbers from the input to 98
  * @n: the starting number
+:wq * Return: 0 or 1
  */
 void print_to_98(int n)
 {
-	print_to_98(98);
 
 	while (n < 98)
 	{
