@@ -7,8 +7,14 @@
  */
 int _strlen(char *s)
 {
-	char *s = string;
+	int longi = 0;
 
-	putchar("The length of the string is %d", strlen(str));
-	return (string);
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+
+	return (longi);
 }
+
